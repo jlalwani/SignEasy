@@ -18,6 +18,7 @@
         android:id="@+id/numberEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:inputType="number"
         android:maxLines="1" />
 
@@ -25,11 +26,13 @@
         android:id="@+id/convertButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/convert" />
 
     <TextView
         android:id="@+id/wordsTextView"
         android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
